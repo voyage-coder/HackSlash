@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(back.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+nav ul{
+    overflow: auto;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 7px;
+    padding: 5px;
+}
+nav ul li a:hover{
+    background-color: rgba(0, 0, 255, 0.307);
+    border-radius: 3px;
+}
+.button1{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px;
+    border-radius: 3px;
+}
+.button1:hover{
+    background-color: rgba(0, 0, 255, 0.312);
+}
+.header1{
+    font-size: 70px;
+    margin-top: 210px;
+    margin-left: 144px;
+}
+.header2{
+    font-size: 40px;
+    margin-left: 120px;
+    padding: 25px;
+}
+.button2{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 144px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.button2:hover{
+    background-color: rgba(0, 0, 255, 0.536);
+}
+.footer{
+    margin-top: 100px;
+}
+.code1{
+    float: right;
+    margin-right:189px;
+    margin-top: 195px;
+    height: 70px;
+    position: relative;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 60px;
+}
+section{
+    height: 100vh;
+}
+#about{
+    border: white;
+    width: 1300px;
+    margin-left: 70px;
+}
+#about img{
+    float: left;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+#about div{
+    display: block;
+    margin-top: 200px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-right: 60px;
+}
+#about div h2{
+    text-align: left;
+    padding: 50px;
+    color: blue;
+    font-weight: 400;
+}
+#about div p{
+    margin-left: 11px;
+}
+
+#services h2{
+    color: blue;
+    font-weight: 400;
+}
+.button3{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 18px;
+}
+.button4{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 18px;
+}
+#firimg{
+    float: left;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+#secimg{
+    float: right;
+    margin-top: 70px;
+    margin-right: 150px;
+}
+#s1{
+    float: right;
+    margin-top: 140px;
+    margin-right: 180px;
+}
+#s2{
+    float: left;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+#s1 h3, #s2 h3{
+    font-size: 30px;
+}
+#s1 p, #s2 p{
+    font-size: 20px;
+}
+#blog11{
+    display: block;
+    border-style: solid;
+    height: 50vh;
+    width:50vw ;
+    padding-top: 150px;
+    padding-left: 50px;
+    background-color: blue;
+    color: white;
+}
+
+#blog12{
+    display: block;
+    border-style: solid;
+    height: 50vh;
+    width:50vw ;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.container1{
+    width: 500px;
+}
+.content1{
+    display: flex;
+    width: 1519px;
+    height: 391px;
+}
+.content2{
+    display: flex;
+    width: 1519px;
+    height: 391px;
+}
+.box1{
+    flex: 1;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+.box2{
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+}
+.box3{
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+}
+.box4{
+    flex: 1;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.box1 h2, .box4 h2{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.box2 h2, .box3 h2{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 20px;
+}
+.box1 a,.box4 a{
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 18px; 
+}
+.box2 a,.box3 a{
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 18px; 
+}
+.box1 h2 p1 p2 a,.box2 h2 p1 p2 a,.box3 h2 p1 p2 a,.box4 h2 p1 p2 a{
+    margin-inline-start: 100px;
+}
+.open{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    padding: 30px;
+    font-weight: 400;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,200px));
+    gap: 190px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 175px;
+}
+.item{
+    border-radius: 5px;
+    box-shadow: 0 2px 7px;
+    width: 350px;
+    height: 250px;
+}
+.item h3{
+    font-size: 40px;
+    padding: 15px;
+}
+.item p{
+    font-size: 30px;
+    padding: 15px;
+}
+.item:hover{
+    background-color: rgba(0, 0, 0, 0.908);
+    color: white;
+    cursor: pointer;
+}
+#end{
+    margin-left: 200px;
+    margin-top: 200px;
+    height: 150px;
+    width: 600px;
+    padding-top: 50px;
+    float: left;
+}
+#end h3{
+    font-size: 30px;
+}
+#end h5{
+    font-size: 20px;
+}
+.button5{
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 200px;
+    margin-top: 240px;
+}
+
+#fd{
+    height: 50px;
+    padding-left: 50px;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+#foot ul{
+    overflow: auto;
+}
+#foot ul li{
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px 10px;
+}
+#foot ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 7px;
+    padding: 5px;
+}
+#foot ul li a:hover{
+    background-color: rgba(0, 0, 255, 0.307);
+    border-radius: 3px;
+}
+
+#fd2{
+    display: block;
+    width: fit-content ;
+    position: relative;
+    margin-left: 1000px;
+    margin-top: -70px;
+}
+
+
